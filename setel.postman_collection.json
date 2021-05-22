@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "f5f2880b-82b2-4ac3-a8d4-7255b6480fdc",
+		"name": "setel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/api/v1/resources/file?name=file1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/v1/resources/file?name=file1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"resources",
+						"file"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "file1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/api/v1/resources/file",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
